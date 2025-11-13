@@ -27,7 +27,6 @@ services:
   - type: web
     name: vidaflow-frontend
     env: static
-    region: oregon
     buildCommand: "cd frontend && npm install && npm run build"
     staticPublishPath: ./frontend/dist
     headers:
